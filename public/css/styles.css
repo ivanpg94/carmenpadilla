@@ -207,7 +207,7 @@ p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
     z-index: 1;
@@ -219,10 +219,11 @@ p{
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: column;
 }
 
 .presentacion .container .caja {
-    height: 60vh;
+    height: auto;
     background-color: white;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -255,7 +256,9 @@ p{
 .presentacion .container .caja h3 {
     margin-top: 2rem;
 }
-
+.caja1 img{
+    height: 300px;
+}
 @keyframes aparecer-izquierda {
     0% {
         transform: translateX(-100%);
@@ -272,7 +275,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .icons i{
@@ -294,17 +297,14 @@ p{
     padding-bottom: 1rem;
 }
 .sobremi h1{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 .sobremi p{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-}
-.sobremi p{
-    padding-bottom: 5rem;
 }
 /*experiencia*/
 .experiencia h1{
@@ -315,18 +315,19 @@ p{
 .experiencia .container{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+    flex-direction: column;
 }
 .experiencia .container p{
     text-align: left;
 }
 .experiencia .container div{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-content: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
 }
 
 /*formacion*/
@@ -358,6 +359,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
+    flex-direction: column;
 }
 
 .circle {
@@ -402,7 +404,7 @@ body {
 }
 /*contacto*/
 .contacto h1{
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
 }
@@ -441,8 +443,8 @@ input,
 }
 
 .contacto .container {
-    width: 60%;
-    margin: 5em auto;
+    width: 90%;
+    margin: 2em auto;
 }
 .contacto form {
     background-color: #ffffff;
@@ -490,6 +492,9 @@ textarea {
     }
 }
 @media (min-width: 768px) {
+    .presentacion .container {
+        flex-direction: row;
+    }
     .header li {
         float: left;
     }
@@ -507,6 +512,43 @@ textarea {
     /*slider*/
     h1{
         font-size: 25px;
+    }
+    .presentacion .container .caja {
+        height: 60vh;
+    }
+    .presentacion {
+        height: 100vh;
+    }
+    .icons{
+        width: 60%;
+    }
+   .caja1 img{
+        height: auto;
+    }
+    .wrap-circles {
+        flex-direction: row;
+    }
+    .contacto .container {
+        width: 60%;
+        margin: 5em auto;
+    }
+    .sobremi h1{
+        width: 50%;
+    }
+    .sobremi p{
+        width: 50%;
+    }
+    .experiencia .container{
+        width: 50%;
+        flex-direction: row;
+    }
+    .experiencia .container div{
+        width: 50%;
+        flex-direction: row;
+    }
+    .contacto h1{
+        padding-top: 5rem;
+
     }
 }
 @media (min-width: 1024px) {

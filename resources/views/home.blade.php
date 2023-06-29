@@ -8,7 +8,7 @@
     <section class="presentacion">
         <div class="container">
             <div class="caja caja1">
-                <img src="{{ asset('img/carmen.webp') }}" alt="">
+                <img src="{{ asset('img/carmen.webp') }}" alt="Carmen Padilla Foto">
             </div>
             <div class="caja caja2">
                 <div class="datos">
@@ -27,10 +27,10 @@
         </div>
     </section>
     <section class="icons">
-        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok"></i></a>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
 
     </section>
     <section class="sobremi">

@@ -113,16 +113,16 @@
             <form>
                 <ul>
                     <li class="form-name">
-                        <label for="name"><span>Name <span class="required-star">*</span></span></label>
-                        <input type="text" id="name" name="user_name">
+                        <label for="name"><span>Nombre <span class="required-star">*</span></span></label>
+                        <input type="text" aria-label="nombre" id="name" name="user_name">
                     </li>
                     <li class="form-mail">
                         <label for="mail"><span>Email <span class="required-star">*</span></span></label>
-                        <input type="email" id="mail" name="user_email">
+                        <input type="email" aria-label="email" id="mail" name="user_email">
                     </li>
                     <li class="form-message">
-                        <label for="msg"><span>Message</span></label>
-                        <textarea rows="4" cols="50"></textarea>
+                        <label for="msg"><span>Mensaje</span></label>
+                        <textarea rows="4" aria-label="mensaje" cols="50"></textarea>
                     </li>
                     <li class="form-submit">
                         <input type="submit">

@@ -83,25 +83,25 @@
                 <div class="circle per-100">
                     <div class="inner">25%</div>
                 </div>
-                <h3>Dos</h3>
+                <h3 class="circle-title">Dos</h3>
             </div>
             <div>
                 <div class="circle per-100">
                     <div class="inner">50%</div>
                 </div>
-                <h3>Coñazo</h3>
+                <h3 class="circle-title">Coñazo</h3>
             </div>
             <div>
                 <div class="circle per-100">
                     <div class="inner">75%</div>
                 </div>
-                <h3>Toca pelotas</h3>
+                <h3 class="circle-title">Toca pelotas</h3>
             </div>
             <div>
                 <div class="circle per-100">
                     <div class="inner">100%</div>
                 </div>
-                <h3>Timidez</h3>
+                <h3 class="circle-title">Timidez</h3>
             </div>
         </div>
     </section>

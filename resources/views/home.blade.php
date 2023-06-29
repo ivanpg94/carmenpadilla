@@ -27,10 +27,10 @@
         </div>
     </section>
     <section class="icons">
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/" aria-label="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" aria-label="instagram,"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/es/" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.linkedin.com/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a>
 
     </section>
     <section class="sobremi">

@@ -77,7 +77,7 @@
                 <div class="circle per-100">
                     <div class="inner">0%</div>
                 </div>
-                <h3>Una</h3>
+                <h3 class="circle-title">Una</h3>
             </div>
             <div>
                 <div class="circle per-100">

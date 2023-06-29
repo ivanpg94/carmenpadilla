@@ -30,9 +30,7 @@
     <!-- Contenido del pie de página -->
 </footer>
 <script src="{{ asset('js/script.js') }}"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="../owl-carousel/owl.carousel.js"></script>
 <!-- Scroll reveal https://scrollrevealjs.org/guide/hello-world.html -->
 <script src="https://unpkg.com/scrollreveal"></script>
 

@@ -8,7 +8,7 @@
     <section class="presentacion">
         <div class="container">
             <div class="caja caja1">
-                <img src="{{ asset('img/carmen.jpeg') }}" alt="">
+                <img src="{{ asset('img/carmen.webp') }}" alt="">
             </div>
             <div class="caja caja2">
                 <div class="datos">

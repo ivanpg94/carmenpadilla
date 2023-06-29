@@ -34,16 +34,16 @@
 
     </section>
     <section class="sobremi">
-        <h1>Hola soy Carmen</h1>
-        <p>Somos una integradora social comprometida en empoderar a mujeres inmigrantes.
+        <h1 class="sobremi-title">Hola soy Carmen</h1>
+        <p class="sobremi-parrafo">Somos una integradora social comprometida en empoderar a mujeres inmigrantes.
             Brindamos apoyo integral, capacitación y herramientas para fomentar su inclusión, autonomía y desarrollo personal.
             Trabajamos en colaboración con las comunidades para derribar barreras y promover la igualdad de oportunidades.
             Juntas construimos un futuro de empoderamiento y superación.</p>
     </section>
     <section class="experiencia">
         <a name="experiencia"></a>
-        <h1>EXPERIENCIA</h1>
-        <div class="container">
+        <h1 class="title-experience">EXPERIENCIA</h1>
+        <div class="container experience-body">
             <div>
                 <h2>2021-2022</h2>
             </div>
@@ -56,8 +56,8 @@
 
     <section class="experiencia">
         <a name="formacion"></a>
-        <h1>FORMACIÓN</h1>
-        <div class="container">
+        <h1 class="title-formation">FORMACIÓN</h1>
+        <div class="container formacion-body">
             <div>
                 <h2>2019-2021</h2>
             </div>
@@ -70,7 +70,7 @@
 
     <section class="habilidades">
         <a name="habilidades"></a>
-        <h1>HABILIDADES</h1>
+        <h1 class="title-habilidades">HABILIDADES</h1>
 
         <div class="wrap-circles">
             <div>
@@ -108,23 +108,23 @@
 
     <section class="contacto">
         <a name="contacto"></a>
-        <h1>CONTACTO</h1>
+        <h1 class="tittle-contact">CONTACTO</h1>
         <div class="container">
             <form>
                 <ul>
-                    <li>
+                    <li class="form-name">
                         <label for="name"><span>Name <span class="required-star">*</span></span></label>
                         <input type="text" id="name" name="user_name">
                     </li>
-                    <li>
+                    <li class="form-mail">
                         <label for="mail"><span>Email <span class="required-star">*</span></span></label>
                         <input type="email" id="mail" name="user_email">
                     </li>
-                    <li>
+                    <li class="form-message">
                         <label for="msg"><span>Message</span></label>
                         <textarea rows="4" cols="50"></textarea>
                     </li>
-                    <li>
+                    <li class="form-submit">
                         <input type="submit">
                     </li>
                 </ul>

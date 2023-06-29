@@ -122,8 +122,8 @@ p{
 .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
-    padding: 10px 20px;
+    font-size: 1em;
+    padding: 20px 20px;
     text-decoration: none;
     color: #1c1c1c;
 }
@@ -493,6 +493,10 @@ textarea {
     }
 }
 @media (min-width: 768px) {
+    .header .logo {
+        font-size: 2em;
+        padding: 10px 20px;
+    }
     .presentacion .container {
         flex-direction: row;
     }
